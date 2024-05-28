@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rating Section</title>
+    <link rel="stylesheet" href="styleabout.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <div class="rating-section">
+        <div id="rating-stars" class="stars">
+            <span class="fa fa-star" data-value="1"></span>
+            <span class="fa fa-star" data-value="2"></span>
+            <span class="fa fa-star" data-value="3"></span>
+            <span class="fa fa-star" data-value="4"></span>
+            <span class="fa fa-star" data-value="5"></span>
+        </div>
+        <div id="average-rating-container" class="average-rating" style="display: none;">
+            <div id="average-stars" class="stars-average"></div>
+            <span id="average-rating">0.0</span>
+            <span id="total-ratings">(0 reviews)</span>
+        </div>
+        <div id="my-rating-container" class="my-rating" style="display: none;">
+            <div id="my-stars" class="stars-my-rating"></div>
+            <span>My Rating: </span><span id="my-rating">0</span>
+        </div>
+        <div id="thanks-message" class="thank-you-message" style="display:none;">Thank you for your rating!</div>
+        <div id="edit-remove-section" class="edit-remove-buttons" style="display: none;">
+            <i id="edit-rating" class="fas fa-edit"></i>
+            <i id="remove-rating" class="fas fa-trash-alt"></i>
+        </div>
+    </div>
+    <script src="ss.js"></script>
+</body>
+</html>

@@ -1,0 +1,37 @@
+.rating-section {
+    text-align: center;
+}
+
+.stars span {
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.stars .fa-star.checked {
+    color: gold;
+}
+
+.average-rating, .my-rating {
+    margin-top: 10px;
+}
+
+.stars-average .fa-star, .stars-average .fa-star-half-alt, .stars-average .far,
+.stars-my-rating .fa-star, .stars-my-rating .fa-star-half-alt, .stars-my-rating .far {
+    color: gold;
+}
+
+.thank-you-message {
+    color: green;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.edit-remove-buttons {
+    margin-top: 10px;
+}
+
+.edit-remove-buttons i {
+    cursor: pointer;
+    margin: 0 5px;
+    font-size: 1.5rem;
+}
